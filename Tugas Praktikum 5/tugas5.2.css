@@ -1,0 +1,62 @@
+.box {
+    position: relative;
+    width: 1135;
+    height: 600px;
+    background-color: white;
+    margin: auto;
+}
+
+.box1 {
+    float: left;
+    width: 97%;
+    height: 8em;
+    background-color: yellow;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    border: 1px solid black;
+}
+
+.box2 {
+    float: left;
+    width: 5cm;
+    height: 11em;
+    background-color:burlywood;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    border: 1px solid black;
+}
+
+.box3 {
+    float: right;
+    width: 25cm;
+    height: 11em;
+    background-color: blue;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    border: 1px solid black;
+}
+
+.box4 {
+    float: left;
+    width: 5cm;
+    height: 10em;
+    background-color: brown;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    border: 1px solid black;
+}
+
+.box5 {
+    float: right;
+    width: 25cm;
+    height: 10em;
+    background-color:palevioletred;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    border: 1px solid black;
+}
