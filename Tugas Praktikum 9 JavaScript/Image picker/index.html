@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+ <html lang="id">
+ <head>
+     <title>Image Picker</title>
+     <script src="script2.js"></script>
+ </head>
+ <body>
+     <div>
+         <h3>Pilihlah Gambar yang Disukai</h3>
+         <br>
+         <br>
+         <table style="border: solid 1px;">
+         <tr>
+             <td>
+                 <label form="hewan">Pilihlah Salah Satu Gambar</label><br>
+                 <select id="hewan" onchange="cetak_gambar()">
+                    <option value="Kucing">Kucing</option>
+                    <option value="Panda">Panda</option>
+                    <option value="Kelinci">Kelinci</option>
+                    <option value="Jerapah">Jerapah</option>
+                    <option value="Jerapah">Kura-Kura</option>
+                </select>
+             </td>
+         </tr>
+         </table>
+     </div>
+     <br>
+     <br>
+        <div style="width: 100px; height: 100px; border-style: solid 1px;">
+            <img src="" id="gambar">
+        </div>
+ </body>
+ </html>
